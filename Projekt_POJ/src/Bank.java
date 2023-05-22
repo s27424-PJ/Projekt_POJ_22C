@@ -11,7 +11,7 @@ public class Bank  {
         return iloscGotowkiWSejfie;
     }
     public boolean czyMoznaWyplacic(double kwota) {
-        if(kwota<(iloscGotowkiWSejfie)){
+        if(kwota<=(iloscGotowkiWSejfie)){
             return true;
         }
         else{
