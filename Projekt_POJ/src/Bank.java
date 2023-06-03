@@ -21,4 +21,9 @@ public class Bank  {
     public void Wyplata(double kwota) {
         iloscGotowkiWSejfie= iloscGotowkiWSejfie-kwota;
     }
+    public void Wyplata() {
+
+        iloscGotowkiWSejfie= iloscGotowkiWSejfie-0;
+
+    }
 }
