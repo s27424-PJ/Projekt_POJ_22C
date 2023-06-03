@@ -8,7 +8,33 @@ class KartaPlatnicza {
         this.pin = pin;
         this.saldo = saldo;
     }
+    public KartaPlatnicza(String numerKarty, String pin) {
 
+        this.numerKarty = numerKarty;
+
+        this.pin = pin;
+
+        this.saldo = 2000;
+
+    }
+    public KartaPlatnicza(String numerKarty) {
+
+        this.numerKarty = numerKarty;
+
+        this.pin = 5455;
+
+        this.saldo = 2000;
+
+    }
+    
+    public KartaPlatnicza() {
+        this.numerKarty = 5776622;
+
+        this.pin = 7883;
+
+        this.saldo = 2000;
+
+    }
     public boolean sprawdzPin(String pin) {
         return this.pin.equals(pin);
     }
